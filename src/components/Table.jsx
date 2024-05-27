@@ -60,7 +60,7 @@ const Table = ({ columns, data }) => {
               })}
             </tbody>
           </table>
-          <div className="flex items-center justify-between mt-2">
+          <div className="flex items-center justify-center md:justify-between lg:justify-between mt-2">
             <button onClick={() => previousPage()} disabled={!canPreviousPage} className="p-2 bg-gray-200 rounded">
              <FaLeftLong/>
             </button>
