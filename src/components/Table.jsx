@@ -1,5 +1,6 @@
 import React from 'react';
-import { BiRightArrow, BiSolidRightArrow } from 'react-icons/bi';
+import { BiLeftArrow, BiRightArrow, BiSolidRightArrow } from 'react-icons/bi';
+import { FaLeftLong, FaRightLong } from 'react-icons/fa6';
 import { useTable, useSortBy, usePagination } from 'react-table';
 
 const Table = ({ columns, data }) => {
@@ -61,7 +62,7 @@ const Table = ({ columns, data }) => {
           </table>
           <div className="flex items-center justify-between mt-2">
             <button onClick={() => previousPage()} disabled={!canPreviousPage} className="p-2 bg-gray-200 rounded">
-              Previous
+             <FaLeftLong/>
             </button>
             <span className="text-sm">
               Page{' '}
@@ -70,7 +71,7 @@ const Table = ({ columns, data }) => {
               </strong>
             </span>
             <button onClick={() => nextPage()} disabled={!canNextPage} className="p-2 bg-gray-200 rounded">
-              <BiSolidRightArrow/>
+              <FaRightLong/>
             </button>
           </div>
         </div>

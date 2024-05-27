@@ -23,7 +23,7 @@ const Breadcrums = () => {
   };
 
   return (
-    <nav className="bg-gray-100 p-3 rounded">
+    <nav className="bg-gray-100 p-2 rounded  ">
       <button 
         className="sm:hidden flex items-center  flex-row-reverse w-full p-2 rounded" 
         onClick={toggleOpen}

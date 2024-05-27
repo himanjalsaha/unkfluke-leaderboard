@@ -14,7 +14,6 @@ function App() {
     <>
     <div className=' h-screen '>
     <Topnav/>
-    <Breadcrums/>
    <LeaderBoard/>
     </div>
 

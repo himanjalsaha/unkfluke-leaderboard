@@ -1,10 +1,11 @@
 import React from 'react'
 import { FaRegBell } from "react-icons/fa";
 import { RiCoinsLine } from "react-icons/ri";
+import Breadcrums from './Breadcrums';
 
 const Topnav = () => {
   return (
-    <div>
+    <div className=' sticky top-0  bg-white'>
       <div className="flex items-center  justify-between">
         <div>
           <img
@@ -31,6 +32,7 @@ const Topnav = () => {
         </div>
       </div>
       <hr />
+      <Breadcrums/>
     </div>
   )
 }
