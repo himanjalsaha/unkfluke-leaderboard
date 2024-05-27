@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div className=' h-screen lg:overflow-hidden'>
+    <div className=' h-screen '>
     <Topnav/>
     <Breadcrums/>
    <LeaderBoard/>
